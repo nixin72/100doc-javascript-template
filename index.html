@@ -2,11 +2,88 @@
 <html>
 	<head>
 		<title>Calculator</title>
-    <style href="./styles.css" type="text/css" rel="stylehseet" />
+    <link href="./styles.css" type="text/css" rel="stylesheet" >
     <script src="./calculator.js"></script>
 	</head>
 	<body>
 		<div id="content">
-		</div>
+      <div id="display">0</div>
+      <span class="flex">
+        <table id="science" class="hide">
+          <tr>
+            <td class="par">(</td>
+            <td class="par">)</td>
+            <td class="mem">mc</td>
+            <td class="mem">m+</td>
+            <td class="mem">m-</td>
+            <td class="mem">mr</td>
+          </tr>
+          <tr>
+            <td class="mode">2<sup>nd</sup></td>
+            <td class="unary">x<sup>2</sup></td>
+            <td class="unary">x<sup>3</sup></td>
+            <td class="bin">x<sup>y</sup></td>
+            <td class="unary">e<sup>x</sup></td>
+            <td class="unary">10<sup>x</sup></td>
+          </tr>
+          <tr>
+            <td class="unary">1/x</td>
+            <td class="unary"><sup>2</sup>&radic;x</td>
+            <td class="unary"><sup>3</sup>&radic;x</td>
+            <td class="bin"><sup>y</sup>&radic;x</td>
+            <td class="unary">ln</td>
+            <td class="unary">log<sub>10</sub></td>
+          </tr>
+          <tr>
+            <td class="unary">x!</td>
+            <td class="unary">sin</td>
+            <td class="unary">cos</td>
+            <td class="unary">tan</td>
+            <td class="num">e</td>
+            <td class="mode">EE</td>
+          </tr>
+          <tr>
+            <td class="mode">Rad</td>
+            <td class="unary">sinh</td>
+            <td class="unary">cosh</td>
+            <td class="unary">tanh</td>
+            <td class="num">&#x3C0;</td>
+            <td class="num">Rand</td>
+          </tr>
+        </table>
+        <table id="simple">
+          <tr>
+            <td class="clear">C</td>
+            <td class="unary">&plusmn;</td>
+            <td class="unary">&percnt;</td>
+            <td class="bin">&divide;</td>
+          </tr>
+          <tr>
+            <td class="num">7</td>
+            <td class="num">8</td>
+            <td class="num">9</td>
+            <td class="bin">&times;</td>
+          </tr>
+          <tr>
+            <td class="num">4</td>
+            <td class="num">5</td>
+            <td class="num">6</td>
+            <td class="bin">&minus;</td>
+          </tr>
+          <tr>
+            <td class="num">1</td>
+            <td class="num">2</td>
+            <td class="num">3</td>
+            <td class="bin">&plus;</td>
+          </tr>
+          <tr>
+            <td class="" id="toggle">⇤</td>
+            <td class="num">0</td>
+            <td class="num">.</td>
+            <td class="eq">&#61;</td>
+          </tr>
+        </table>
+		  </span>
+      <div>
 	</body>
 </html>

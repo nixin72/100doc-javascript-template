@@ -1,0 +1,53 @@
+body {
+  font-size: 3em;
+  font-family: arial;
+  color: white;
+}
+
+#content {
+  width: fit-content;
+  background: black;
+  padding: 10px;
+}
+
+#display {
+  padding-right: 20px;
+  padding-top: 50px;
+  text-align: right;
+  height: 100px;
+  font-size: 5.5rem;
+  border: thin solid black;
+}
+
+.flex {
+  display: flex;
+}
+
+sup, sub {
+  font-size: 0.75em;
+  pointer-events: none;
+}
+
+table tr td {
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  border-radius: 1000px;
+}
+
+.clear, .unary { background: darkgray; color: black; }
+.bin, .eq { background: #FE7400; }
+.num { background: #666; }
+
+.operation {
+  background: white;
+  color: #FE7400;
+}
+
+#science td {
+  background: #333;
+  color: white;
+  font-size: 0.75em;
+}
+
+.hide { display: none;}
